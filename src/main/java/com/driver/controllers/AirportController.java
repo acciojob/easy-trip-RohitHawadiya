@@ -20,6 +20,7 @@ public class AirportController {
 
     PassengerService passengerService=new PassengerService();
 
+
     @PostMapping("/add_airport")
     public String addAirport(@RequestBody Airport airport){
 
@@ -89,8 +90,7 @@ public class AirportController {
         //If the numberOfPassengers who have booked the flight is greater than : maxCapacity, in that case :
         //return a String "FAILURE"
         //Also if the passenger has already booked a flight then also return "FAILURE".
-        //else if you are able to book a ticket then return "SUCCESS"
-
+        //else if you are able to book a ticket then return "SUCCESS".
            return null;
 //        String ans=flightService.bookATicket(flightId,passengerId);
 //

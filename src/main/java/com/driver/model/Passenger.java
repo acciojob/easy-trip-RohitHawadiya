@@ -1,6 +1,6 @@
 package com.driver.model;
 
-public class Passenger{
+public class Passenger extends Flight{
 
     private int passengerId; //This is a unique key for Passenger model :
 

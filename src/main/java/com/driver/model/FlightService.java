@@ -74,25 +74,5 @@ public class FlightService {
 
         return 3000+(count*50);
     }
-
-//    public String bookATicket(int flightId,int passengerId){
-//
-//        Flight flight = flightRepository.findId(flightId);
-//        if (flight == null) {
-//            return "FAILURE";
-//        }
-//
-//        // Check if passenger exists
-//        Passenger passenger = passengerRepository.findId(passengerId);
-//        if (passenger == null) {
-//            return "FAILURE";
-//        }
-//
-//        if(passenger.getFlightId()!=null)
-//        {
-//            return "FAILURE";
-//        }
-//
-
 }
 
